@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>js-runtime-environment demo</title>
+</head>
+<body>
+  <h1>js-runtime-environment – Browser test</h1>
+
+  <script src="./js-runtime-environment.min.js"></script>
+  <script>
+    console.log('run_env:', run_env);
+    console.log('name:', run_env.name);               // צפוי: "browser"
+    console.log('isBrowser():', isBrowser());         // true
+    console.log('isWebWorker():', isWebWorker());     // false
+    console.log('isNode():', isNode());               // false
+
+    document.body.insertAdjacentHTML('beforeend', `
+      <pre>${JSON.stringify(run_env, null, 2)}</pre>
+    `);
+  </script>
+</body>
+</html>

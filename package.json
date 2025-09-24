@@ -1,0 +1,82 @@
+{
+  "name": "js-runtime-environment",
+  "version": "1.0.0",
+  "description": "Identify which JavaScript environment your code is running in at runtime — Browser, Node.js, Bun, Deno, Electron, Workers, etc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colocohen/js-runtime-environment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colocohen/js-runtime-environment/issues"
+  },
+  "homepage": "https://github.com/colocohen/js-runtime-environment#readme",
+  "license": "MIT",
+  "author": "colocohen",
+  "type": "commonjs",
+  "main": "js-runtime-environment.js",
+  "keywords": [
+    "runtime detection",
+    "runtime detector",
+    "runtime",
+    "environment",
+    "env",
+    "execution",
+    "engine",
+    "platform",
+    "context",
+    "js",
+    "javascript",
+    "is",
+    "check",
+    "checking",
+    "detect",
+    "detection",
+    "browser",
+    "node",
+    "bun",
+    "deno",
+    "electron",
+    "jsdom",
+    "webworker",
+    "worker",
+    "serviceworker",
+    "macos",
+    "ios",
+    "iphone",
+    "ipad",
+    "windows",
+    "linux",
+    "android",
+    "os",
+    "operating",
+    "system",
+    "nwjs",
+    "react-native",
+    "edge",
+    "vercel",
+    "cloudflare",
+    "edge-runtime",
+    "worklet",
+    "dedicated-worker",
+    "shared-worker",
+    "universal",
+    "cross-platform",
+    "cross-runtime",
+    "compatibility",
+    "portable",
+    "execution-context",
+    "env-detect",
+    "runtime-detect",
+    "runtime-check"
+  ],
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/colocohen"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/colocohen"
+    }
+  ]
+}
